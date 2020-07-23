@@ -22,7 +22,7 @@
   },
   "scripts": {
     "clear-build-cache": "rm -rf .cache/ dist/",
-    "dev": "parcel src/index.html --port 1234",
+    "dev": "parcel index.html --port 1234",
     "dev:mock": "cross-env PET_MOCK=mock parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
